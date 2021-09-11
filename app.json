@@ -1,0 +1,26 @@
+{
+  "id": "e88593f3-a5f1-4041-af01-c79ff7baff4b",
+  "name": "CONTRATA2",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 58000,
+      "to": 58149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://CONTRATA2.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}
