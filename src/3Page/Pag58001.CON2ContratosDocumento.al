@@ -43,6 +43,7 @@ page 58001 "CON2 Contratos Documento"
                 ApplicationArea = All;
                 Enabled = true;
                 SubPageLink = "Contract No." = field("No.");
+                //11:20
 
             }
         }
