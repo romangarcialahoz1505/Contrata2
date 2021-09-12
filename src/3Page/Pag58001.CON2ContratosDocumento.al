@@ -45,6 +45,8 @@ page 58001 "CON2 Contratos Documento"
                 SubPageLink = "Contract No." = field("No.");
                 //11:20
                 //11:24
+                //11:31
+                //11:33s
 
             }
         }
