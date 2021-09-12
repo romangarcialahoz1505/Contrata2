@@ -43,7 +43,7 @@ page 58001 "CON2 Contratos Documento"
                 ApplicationArea = All;
                 Enabled = true;
                 SubPageLink = "Contract No." = field("No.");
-                //nuevo cambio a publicar en git 11:10
+
             }
         }
     }
