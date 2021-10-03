@@ -1,6 +1,6 @@
 page 58001 "CON2 Contratos Documento"
 {
-    Caption = 'Contratos Documento';
+    Caption = 'CON2 Contratos Documento';
     PageType = Document;
     ApplicationArea = All;
     UsageCategory = Administration;
@@ -43,10 +43,7 @@ page 58001 "CON2 Contratos Documento"
                 ApplicationArea = All;
                 Enabled = true;
                 SubPageLink = "Contract No." = field("No.");
-                //11:20
-                //11:24
-                //11:31
-                //11:33s
+
 
             }
         }

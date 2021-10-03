@@ -36,7 +36,17 @@ table 58002 "CON2 Contrato Lineas"
         {
             Caption = 'No. Artículo';
             DataClassification = ToBeClassified;
-            TableRelation = Item;
+            TableRelation = "CON2 Contratos Item";
+
+            trigger OnValidate()
+            var
+                ContratoItem: Record "CON2 Contratos Item";
+
+            begin
+                ContratoItem.Get("Item No.");
+                Description := ContratoItem.Description;
+
+            end;
 
         }
         field(50; "Description"; Text[100])

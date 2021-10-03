@@ -28,7 +28,19 @@ table 58000 "CON2 Contrato Cabecero"
         {
             Caption = 'Factura al cliente No.';
             DataClassification = ToBeClassified;
-            TableRelation = Customer;
+            TableRelation = "CON2 Contratatos Customer";
+
+            trigger OnValidate()
+            var
+                ContratosCustomer: Record "CON2 Contratatos Customer";
+
+            begin
+                ContratosCustomer.Get("Bill to Customer No.");
+                "Bill to Name" := ContratosCustomer.Name;
+
+            end;
+
+
 
         }
         field(40; "Bill to Name"; Text[100])
